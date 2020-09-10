@@ -1,6 +1,6 @@
 # PasswordStore
 
-A basic python program that lets you create an account and it stores user passwords of different social accounts and also generates passwords.
+PasswordStore is a basic python program that lets you create an account and it stores user passwords of different social accounts and also generates passwords.
 
 ## Author
 Ted Kariuki Mwangi
@@ -24,3 +24,6 @@ This programs has been built using
  
  Email 1:tedletheorde@gmail.com
  Alternative email :britcommentator@gmail.com
+
+## Known Bugs
+The program has a few challenges where the display credentials function may not work
