@@ -18,7 +18,14 @@ class User:
         a method that saves users objects into user_list
         """
         User.user_list.append(self)
-
-
-if __name__ == "__main__":
-    unittest.main()
+    
+    @classmethod
+    def user_auth(cls,name,pin):
+        """
+        This method returns a boolean True if the username and pin inputted
+        matches those of a user in the user_list array
+        """
+        for user in cls.user_list:
+            if user.username == name and user.password == pin:
+                return True
+        return False
